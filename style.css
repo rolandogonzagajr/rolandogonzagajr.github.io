@@ -3,6 +3,12 @@ body {
   
 }
 
+a {display: block;
+  width: 100px;
+  margin: auto;
+
+}
+
 h1 {
     color: red;
     text-align: center;
