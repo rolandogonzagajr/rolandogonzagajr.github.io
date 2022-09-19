@@ -12,15 +12,12 @@ a {  color : green ;
   margin : auto ;
   word-spacing : normal
     
-.img {  
-height: 100px;  
-width: 800px;  
-  
-}  
-  
-#center {  
-text-align: center;  
-}  
+img {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 h1 {
     color: red;
