@@ -1,5 +1,5 @@
 body {
-  background: lightblue;
+  background: skyblue;
     <a href="home.html">Home</a>
     <a href="services.html">Our Services</a>
     <a href="book">Ask an Offer</a>
@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: pink;
+    color: hotpink;
     text-align: center;
 }
 
