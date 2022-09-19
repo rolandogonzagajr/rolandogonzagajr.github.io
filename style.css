@@ -1,5 +1,9 @@
+body {
+  background: lightblue;
+}
+
 h1 {
-    color: blue;
+    color: pink;
     text-align: center;
 }
 
