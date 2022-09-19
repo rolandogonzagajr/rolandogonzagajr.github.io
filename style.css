@@ -1,11 +1,11 @@
 body {
-  background: skyblue;
+  background: #82CAFF;
   
 }
 
 a {  color : green ;
-  background : #32C1DA ;
-  width : 30% ;
+  background : #yellow ;
+  width : 50% ;
   text-align : center ;
   font-family : Arial ;
   font-size : 150% ;
