@@ -12,13 +12,9 @@ a {  color : green ;
   margin : auto ;
   word-spacing : normal
     
-div {  
-border: 2px solid red;  
-}  
-  
-img {  
-height: 300px;  
-width: 300px;  
+.img {  
+height: 800px;  
+width: 800px;  
   
 }  
   
