@@ -21,13 +21,11 @@ body {
     'menu footer footer footer footer footer';
   gap: 10px;
   background-color: #2196F3;
-  opacity: 0;
   padding: 10px;
 }
 
 .grid-container > div {
   background-color: yellow;
-  opacity: 0;
   text-align: center;
   padding: 10px 0;
   font-size: 30px;
