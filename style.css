@@ -15,9 +15,10 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-areas:
-    'header header header header header'
+  grid-template-areas: 'myArea myArea myArea myArea myArea';
   gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
   opacity: 0.5
   padding: 10px;
 }
@@ -29,15 +30,6 @@ body {
   font-size: 250px;
 }
 
-a {  color : green ;
-  background : #yellow ;
-  width : 75% ;
-  text-align : center ;
-  font-family : Arial ;
-  font-size : 150% ;
-  margin : auto ;
-  word-spacing : normal
-}
 
 h1 {
     color: red;
