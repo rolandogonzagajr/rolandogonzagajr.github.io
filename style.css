@@ -15,13 +15,14 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'myArea myArea myArea myArea myArea';
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 100px;
   gap: 10px;
   background-color: #2196F3;
-  padding: 10px;
-  opacity: 0.5
+  opacity: 0.5;
   padding: 10px;
 }
+
 
 .grid-container > div {
   opacity: 0.5;
