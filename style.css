@@ -5,6 +5,7 @@ body {
   background-position: center;
   background-size: cover;
   
+}
 
 #page {
   display: grid;
@@ -38,7 +39,6 @@ body {
   background-color: #8cffa0;
 }
   
-}
 
 h1 {
     color: red;
