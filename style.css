@@ -7,11 +7,11 @@ body {
  
 }
 
-.item1 { grid-area: Home; }
-.item2 { grid-area: Contact Us; }
-.item3 { grid-area: Our Services; }
-.item4 { grid-area: Promo; }
-.item5 { grid-area: Testimonials; }
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
@@ -21,13 +21,15 @@ body {
     'menu footer footer footer footer footer';
   gap: 10px;
   background-color: #2196F3;
+  opacity: 0;
   padding: 10px;
 }
 
 .grid-container > div {
   background-color: yellow;
+  opacity: 0;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
   font-size: 30px;
 }
   
