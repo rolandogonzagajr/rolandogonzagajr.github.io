@@ -16,7 +16,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
+    'header header header header header'
   gap: 10px;
   opacity: 0.5
   padding: 10px;
@@ -26,7 +26,7 @@ body {
   opacity: 0.5;
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 250px;
 }
 
 a {  color : green ;
