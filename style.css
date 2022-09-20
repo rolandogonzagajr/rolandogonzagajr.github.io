@@ -6,7 +6,6 @@ body {
   background-size: cover;
 
 }
-
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
@@ -15,18 +14,20 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 10px 10px 10px 10px 10px;
-  grid-template-rows: 10px 10px 10px 10px 10px;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
   gap: 10px;
   background-color: #2196F3;
-  opacity: 0.5;
   padding: 10px;
+  opacity: 0
 }
 
-
 .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
   font-size: 30px;
 }
 
