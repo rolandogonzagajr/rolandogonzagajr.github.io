@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  }
 
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
@@ -30,7 +31,7 @@ body {
   font-size: 30px;
 }
 
-}
+
 
 h1 {
     color: red;
