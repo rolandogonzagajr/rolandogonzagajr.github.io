@@ -22,15 +22,16 @@ body {
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
-  opacity: 0;
+  
 }
 
 .grid-container > div {
   background-color: yellow;
+  opacity: 0;
   text-align: center;
   padding: 10px 0;
   font-size: 30px;
-  opacity: 0;
+
 } 
   
 
