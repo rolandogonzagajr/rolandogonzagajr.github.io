@@ -6,6 +6,7 @@ body {
   background-size: cover;
 
 }
+
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
