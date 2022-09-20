@@ -7,31 +7,37 @@ body {
   
   }
 
-.item1 { grid-area: Home; }
-.item2 { grid-area: Contact Us; }
-.item3 { grid-area: Our Services; }
-.item4 { grid-area: Promo & Offer; }
-.item5 { grid-area: Testimonials; }
-
-.grid-container {
+#page {
   display: grid;
+  width: 100%;
+  height: 250px;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-  opacity: 0
+    "head head"
+    "nav  main"
+    "nav  foot";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 10px 0;
-  font-size: 30px;
+#page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
 }
 
+#page > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
 
 
 h1 {
